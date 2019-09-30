@@ -15,8 +15,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Hi'),
+      body: Column(
+        children: <Widget>[
+          Image.asset(
+            'assets/image.png',
+            width: double.infinity,
+          ),
+        ],
       ),
     );
   }
